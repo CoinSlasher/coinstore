@@ -1,0 +1,34 @@
+.nav1{
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 100%;
+   height: 538px;
+   margin-bottom: 165px;
+}
+.nav1::after{
+    content: '';
+    display: block;
+    width: 217px;
+    height: 242px;
+    position: absolute;
+    bottom: -100px;
+    transform: translate(439px, 0px);
+     background-image: url('../../elements/graydot.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.sec_nav_img{
+    overflow: hidden;
+    width: 517px;
+    height: 282px;
+    flex-basis: 517px;
+}
+.sec_header{
+    text-align: center;
+    font:normal 35px arial;
+}
+#stress{
+    font:bold 39px arial;
+}

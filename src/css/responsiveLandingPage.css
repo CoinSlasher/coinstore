@@ -1,0 +1,99 @@
+ /* global */ /* tablet */
+ @media screen and (max-width:1100px) {
+    #nav{
+        justify-content: space-around;
+         height: auto;
+    }
+    .landing_div{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        height: auto;
+        word-wrap: break-word;
+    }
+    .sub_sec_nav{
+        height: auto;
+        flex-direction: column;
+    }
+    .sub_sec_img_div{
+     margin-bottom: 30px;
+    }
+    .btc_div,.btc_border{
+        display:none;
+    }
+ }
+ /* mobile */
+ @media screen and (max-width:700px){
+     
+    #img-nav{
+        width: auto;
+        height: auto;
+    }
+     
+    #div{
+    display: flex;
+        justify-content: center;
+        width: 100%;
+}
+#nav{
+    justify-content: space-between;
+    padding: 0px 20px;
+ }
+     .coin1{
+         width: 149px;
+         height: 44px;
+     }
+     #sign-up{
+         font:bold 23px arial;
+     }
+    .phone{
+        width: 290px;
+        height: 335px;
+    }
+    #crypto{
+        font:bold 70px arial;
+    }
+    .wallet{
+        font:bold 28px arial;
+        align-items: center;
+     }
+     #land_info{
+         text-align: center;
+         width: 300px;
+      }
+    .sec_header,.nav2-h2{
+       font-weight: normal;
+       font-size: 28px;
+    }
+    .nav2-h2{
+        margin-bottom: 20px;
+    }
+    .tired{
+        width: 364px;
+        height: 198px;
+    }
+    .girl{
+        width: 322px;
+        height: 315px;
+    }
+    .girl2{
+        width: 328px;
+        height: 261px;
+    }
+    .prompter_div_info{
+        font:normal 16px arial;
+    }
+    .prompter_btn{
+        width:182px;
+        height: 52px;
+        font:bold 25px arial;
+    }
+    .footer_div{
+        font:normal 18px arial;
+    }
+ }
+
+
+
+
+

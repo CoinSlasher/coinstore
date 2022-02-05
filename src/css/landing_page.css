@@ -1,0 +1,35 @@
+.landing_div{
+    margin-top: 100px;
+    width: 100%;
+    height:auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+ .sublanding_div{
+     width: auto;
+     height: 100%;
+ }
+.sublanding_div,.wallet{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+     word-wrap: break-word;
+
+}
+.wallet{
+    font:bold 39px arial;
+}
+#crypto{
+    font:bold 122px arial;
+}
+#land_info{
+    font:normal 16px arial;
+    width:472px;
+    height:52px;
+    word-wrap: break-word;
+}
+/* infographics */
+.phone{
+    width:478px;
+    height: 550px;
+}

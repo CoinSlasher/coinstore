@@ -1,0 +1,32 @@
+.prompter_div{
+    flex-direction: column;
+    justify-content: space-evenly;
+     border: 1px solid #707070;
+    border-radius:15px;
+    box-shadow: 0px 9px 6px rgba(0, 0, 0,.160);
+}
+.btc_border{
+    justify-content: space-evenly;
+    align-items: center;
+}
+.coinStore{
+    text-align: center;
+    margin-top: 20px;
+    height: 70px;
+}
+.prompter_div_info{
+    flex-direction: column;
+    font:normal 27px arial;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+}
+.prompter_btn{
+    width: 266px;
+    height: 76px;
+     color:rgb(255, 255, 255);
+     background-color: #007CFF;
+     border: 1px solid transparent;
+     border-radius: 5px;
+     font:bold 38px arial;
+}

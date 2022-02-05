@@ -1,0 +1,85 @@
+@import url('header.css');
+@import url("landing_page.css");
+@import url("section.css");
+@import url("section2.css");
+@import url("foot_promoter.css");
+@import url("foot.css");
+@import url("form.css");
+@import url("responsiveLandingPage.css");
+@import url("responsiveForm.css");
+
+
+:root{
+ /* //colors */
+ --bg:#efefef;
+ --d:#353333;
+ --gray:#DFD5D5;
+ --dark:#000000;
+ --red:#FF424D;
+ --btn-bg:#E0E2FC;
+ --btn-txt:#0492FF;
+ --green:#31FC85;
+  --crypto-info-color:#606060;
+ /* //fonts and sizes */
+ --crypto-text:120px;
+ --basic-font:poppins;
+--heading:35px;
+ --with-coinstore:30px;
+ --with-coinstore-info:12px;
+ --crypto-info:18px;
+}
+ 
+ *{
+     margin: 0;
+    padding: 0;
+     box-sizing: border-box !important;
+ }
+ *::before{
+    box-sizing: border-box;
+}
+ *::after{
+     box-sizing: border-box;
+ }
+body{
+    width: 100%;
+    min-height: 100vh;
+    overflow-x:hidden !important;
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+}
+#div{
+    max-width:1536px;
+    width: 100%;
+   height:100%;
+   margin:0px auto
+
+}
+.sub_body{
+    width: 100%;
+    height: 100%;
+     display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    background-color: rgb(255, 255, 255);
+}
+#nav,.form,.form_div,.landing_div,.sec_nav,.sub_sec_nav,.info_div,.prompter_div,.btc_border,.prompter_div_info,.footer{
+    display: flex;
+    position: relative;
+}
+.error{
+    font:normal 10px arial;
+     text-align: left;
+    color:rgb(255, 7, 7);
+}
+#feedback{
+    background-color: rgb(0 194 48);
+    color: rgb(255, 255, 255);
+    font: normal 16px arial;
+    text-align: center;
+    width: 250px;
+      padding: 15px;
+    margin: 0px 0px 15px -48px;
+    border-radius: 5px;
+    display: none;
+}
+
