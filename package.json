@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "react-scripts build",
     "start": "node server/server.js",
     "dev-server": "webpack-dev-server --config webpack.config.js",
     "build:prod": "webpack --config webpack.prod.js",
@@ -45,5 +46,17 @@
     "sass-loader": "^12.4.0",
     "style-loader": "^3.3.1",
     "webpack-cli": "^4.9.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
