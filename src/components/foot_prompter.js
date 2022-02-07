@@ -1,6 +1,7 @@
 import React from 'react'
 import coinStoreLogo from '../../elements/coinStore_logo.png'
 import Btc from '../../elements/bitcoin-btc-logo.svg'
+import {Link} from 'react-router-dom';
  const prompter =()=>(
      <div className='prompter_div'>
          <div className='coinStore'>
@@ -16,7 +17,7 @@ import Btc from '../../elements/bitcoin-btc-logo.svg'
                 of all your Trade and Purchases 
                 </div>
                 <div className='prompter_div_btn'>
-                    <button className='prompter_btn'>Sign up</button>
+                  <Link to='/login'>  <button className='prompter_btn'>Sign up</button> </Link>
                 </div>
             </div>
          <div className='btc_div'>

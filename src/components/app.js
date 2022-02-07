@@ -5,13 +5,11 @@ import Section from "./section"
 import Section2 from "./section2"
 import withCoinStore from "../../elements/withCoinbase.png"
 import withOutCoinStore from "../../elements/withoutCoinbase.png"
-import Section3 from "./section3";
-import Prompter from "./foot_prompter";
+ import Prompter from "./foot_prompter";
 import Footer from "./footer";
 import Form from "./form"
 import "../css/global.css"
-import "./subComponents/_xls"
-
+ 
 const arr ={
     img:{
         name:'girl',
@@ -50,7 +48,7 @@ const arr ={
     
 };
 const App =()=>(
-    <div className='sub_body'>
+     <div className='sub_body'>
         {/* header nav */}
         <Head/>
         {/* landing page img & info */}
@@ -61,8 +59,7 @@ const App =()=>(
         />
          <Prompter/>
         <Footer/>
-
     </div>
-)
+ )
 const App2 =()=><Form/>;
-export default App2; 
+export {App,App2}; 
