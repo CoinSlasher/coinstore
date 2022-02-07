@@ -1,6 +1,6 @@
 node_modules
 new illustration
 elements
-dist
+public
 package-lock.json
 webpack.config.js
